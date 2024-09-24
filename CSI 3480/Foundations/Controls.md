@@ -18,3 +18,5 @@ Some types of controls provided by the Fair Risk Analysis Document are:
 
 Another useful checklist of controls can be found in NISTIR 7621. 
 
+Control cost is balanced with the level of [[Risk]]. As the amount of money spent on controls increases, the lower the likelihood of a security breach. 
+
