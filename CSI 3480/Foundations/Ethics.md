@@ -1,0 +1,1 @@
+General social guidelines that ought to be followed. These usually apply to individuals, such as white hat hackers. 

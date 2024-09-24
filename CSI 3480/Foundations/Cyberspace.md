@@ -1,0 +1,1 @@
+A collection of artifacts that depend on computers or information systems to exist.

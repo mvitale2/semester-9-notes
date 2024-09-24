@@ -1,0 +1,1 @@
+Rules enforced by the government that every organization must follow or face punishment. 

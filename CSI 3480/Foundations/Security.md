@@ -1,0 +1,4 @@
+- Restricting people other than those authorized from accessing an [[assets|asset]] 
+- A state of being secure and free from danger or harm
+- Security is inversely proportional to convenience
+- Data security is how data is protected from internal and external attackers
