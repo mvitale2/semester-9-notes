@@ -31,7 +31,9 @@
 	- It is required to manually set a password for `deck` using the command `passwd deck`.
 	- The `root` account is required to do major system modifications. 
 - Network Configuration
+	- 
 - Service Management
+	- 
 - System Updates
 	- Application updates are generally received through the Discover store. 
 
