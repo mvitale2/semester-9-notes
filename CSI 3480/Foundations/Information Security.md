@@ -1,6 +1,6 @@
 The management of information [[assets]] that are at risk of negatively impacting the entity that owns them. [[Risk]] is calculated based on the likelihood that it could happen, and how badly it would affect the entity's information systems. It's all about [[risk]] assessment.
 
-Three key words comprise info sec:
+The CIA Triad is used to define the main principles of Info Sec:
 - Confidentiality 
 	- No unauthorized access
 - Integrity

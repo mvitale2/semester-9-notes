@@ -45,12 +45,12 @@ Assessing with this method begins with determining the primary cost.
 			- Control strength
 				- Difficulty, complexity
 	- Probable loss magnitude
-		- Primary loss factors
+		- Primary loss factors - Big losses, like servers or databases
 			- [[Assets|Asset]] factors
 				- Criticality, Cost, Sensitivity, Volume
 			- [[Threats|Threat]] factors
 				- Type of action, internal vs external, competency
-		- Secondary Loss factors
+		- Secondary Loss factors - Losses that occur as a result of primary losses
 			- Organization factors
 				- Timing, Due diligence, Detection/response
 			- External factors
@@ -64,12 +64,14 @@ BIRT is a table used to measure likelihood based on business impact.
 ## Risk Determination
 primary risk = f<sub>3</sub>(Primary loss event frequency, primary loss magnitude)
 
+Determining which [[Controls]] to use depends on the risk assessment. Assessing the cost and level of risk determines the proper controls. 
+
 Residual risk is the risk that is left after implementing the treatment. Risk cannot be eliminated totally. 
 
 - Risk avoidance: Adding controls or resources which the budget cannot allow, and the project cannot be postponed. The conclusion is to completely avoid the cause of the risk in the project by offloading it to a third party or not including it in the project at all.
-- Risk transfer: Allocating all or some of the risk mitigation responsibility
-- Risk reduction:
-- Risk retention:
+- Risk transfer: Allocating all or some of the risk mitigation responsibility.
+- Risk reduction: Actions taken to directly reduce risk.
+- Risk retention: Determining a particular amount of risk that can be handled before offloading it to a third party. 
 
 Risk reduction is achieved by implementing security [[controls]]. Controls can result in:
 - Removing the threat source
