@@ -19,4 +19,22 @@ Some types of controls provided by the Fair Risk Analysis Document are:
 Another useful checklist of controls can be found in NISTIR 7621. 
 
 Control cost is balanced with the level of [[Risk]]. As the amount of money spent on controls increases, the lower the likelihood of a security breach. 
+## [[Privacy]] Controls
+- Authority and purpose
+- Data quality and integrity
+	- Ensuring PII is accurate, relevant, timely, and complete for its purpose
+- Accountability, audit, and [[Risk]] management
+	- Demonstrate that organizations are complying with applicable privacy protection requirements. 
+	- Ex. privacy reporting, privacy impact, [[Security Awareness|awareness training]]
+- Data minimization and retention
+	- Reducing the collection or use of PII
+- Individual participation and redress
+	- Addresses the need to include clients in the decision of how their PII is used.
+- Security
+	- Ensuring that technical, physical, and administrative safeguards are in place to protect individuals' information. 
+- Transparency
+	- Provide public notice of information practices
+- Use limitation
+
+NIST SP 800-122, *Guide to Protecting the Confidentiality of Personally Identifiable Information* 
 
