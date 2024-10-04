@@ -20,7 +20,7 @@ Organizations should be transparent about the [[Controls]] they are using to pro
 **Exposure.** Increasing accessibility to information about physical or emotional attributes of a person without their consent. 
 **Blackmail.** Involves the threat of disclosure. 
 **Distortion.** The manipulation of the way a person is perceived and judged by others. 
-**Appropriation.** Using someone's identity for another purpose without their consent (ex. catfishing).
+**Appropriation.** Using someone's identity for another purpose without their consent (ex. cat-fishing).
 ### Invasions
 **Intrusions.** Incursions into a person's personal life.
 **Decisional interference.** Causing someone to undertake certain actions that would generate data that could potentially be disclosed. Influencing the decisions of an individual or group of individuals to change their mind. 
