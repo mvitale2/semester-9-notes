@@ -14,6 +14,7 @@ Plan --> Acquire --> Deploy --> Manage --> Dispose --> Plan
 ### Acquisition
 - Request approval
 - Vendor relationships
+	- Compare vendors
 - Acquisition
 - Receipt
 
@@ -23,6 +24,8 @@ The acquisition process should meet specific objectives:
 - Disposing of [[Assets]] in a cost-effective manner
 ### Deployment
 - Outlining the process of installing the hardware
+- Installing the hardware
+- Ensuring the hardware is functioning properly
 ### Management
 - Scheduling maintenance in accordance with supplier recommendations.
 - Some organizations have predictive maintenance algorithms that can determine when purchased equipment needs maintenance.
@@ -44,6 +47,11 @@ Sensitive information needs to be destroyed before the equipment is removed.
 	- Address books
 	- Fax
 - DDoS
+	- Compromising availability by using up system resources
+- Physical Security
+	- Locks, doors, windows, etc.
+- Operating System Security
+	- Version [[Vulnerabilities]]
 ## Class Activity 10/8/24 Answer
 **What specific security threats are posed by office equipment such as printers, scanners, photocopiers, and fax machines in this scenario? Consider both physical and network-based threats.**
 
