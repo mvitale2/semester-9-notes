@@ -1,5 +1,7 @@
 Hardware that controls industrial processes, such as manufacturing, product handling, production, and distribution. 
 
+![[Pasted image 20241015142741.png]]
+
 ICS is operating in real-time. Rebooting machines, for example, extends downtime and limits production. 
 
 IT systems manage data, while ICS manage physical objects. 
@@ -13,3 +15,11 @@ Control systems have limited memory and storage compared to standard PC's. This 
 - Inaccurate information
 - Interference with equipment operation
 - Interference with safety systems operation
+### Countermeasures
+- Implement application whitelisting
+- Patch management
+- Reduce attack surface areas
+- Build a defendable environment
+- Manage authentication
+- Implement secure remote access
+- Monitor and respond
