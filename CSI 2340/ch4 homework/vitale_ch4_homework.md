@@ -35,3 +35,57 @@
 ![[Pasted image 20241014111858.png]]
 ![[Pasted image 20241014112042.png]]
 ## Hands-on Exercise
+```ruby
+"""
+
+Gotta type fast.
+
+"""
+
+class Challenge
+  attr_accessor :words, :start
+
+  def initialize
+    @words = ["gumbo", "jumbo", "mumbo", "bumbo", 'gombo', 'wombo', 'worm', 'bungalow', 'mombo', 'combo', 'jumbalow']
+    @start = false
+  end
+  
+  def generate_word()
+    return self.words[rand(0...self.words.length)]
+  end
+  
+  def start_challenge()
+    puts "Welcome to the challenge game! Press enter to begin."
+    input = gets
+    if input == "\n"
+      self.start = true
+      main_challenge()
+    else
+      puts "Lame."
+    end
+  end
+  def main_challenge()
+    score = 0
+    while self.start
+      rand_word = generate_word()
+      printf "Type this word exactly!\n#{rand_word}\n: "
+      input = gets.chomp
+      if input == rand_word
+        score += 1
+        puts "You got it!"
+      else
+        puts "You failed!"
+        if score == 1 || score == 0
+          puts "Haha you can't type lmao"
+        else
+          puts "You typed #{score} words correctly!"
+        end
+        self.start = false
+      end
+    end
+  end
+end
+
+game = Challenge.new
+game.start_challenge()
+```
