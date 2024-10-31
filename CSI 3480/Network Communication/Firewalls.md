@@ -6,9 +6,6 @@ A firewall can be:
 - Separate computer system
 - Software running on a server
 - Separate network container
-
-Firewalls can use several techniques to control access:
-- Service control
 # Firewall types
 - Packet filtering
 	- Filters based on information inside [[Internet Layer|internet packets]]. 
@@ -35,3 +32,20 @@ Firewalls can use several techniques to control access:
 ![[Pasted image 20241029144130.png]]
 ## Screened Host Firewall Architecture
 Firewalls in this architecture can be used with a DMZ or without one. 
+## Firewall planning and implementation
+Based on NIST's SP 800-41, the steps to plan a firewall are:
+1. Plan
+2. Configure
+3. Test
+4. Deploy
+5. Manage
+# [[Policy|Policies]]
+NIST provides SP 800-41 to define firewall policy:
+"A description of how an organization's firewalls should handle inbound and outbound network traffic for specific IP address and address ranges, protocols, applications, and content types, based on the organization's information security policies."
+
+Overall, firewall policies should follow these guidelines:
+- Base an organization's firewall policy on a comprehensive [[Risk|risk analysis]]. 
+- Base firewall policies on blocking on all inbound and outbound traffic.
+- Block invalid or private IP address by default. 
+- Have policies for handling IPv6 traffic. 
+- Determine which applications should be creating traffic. 
