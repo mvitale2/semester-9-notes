@@ -1,0 +1,56 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-29 15:52 EDT
+NSE: Loaded 126 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 15:52
+Completed NSE at 15:52, 0.00s elapsed
+Initiating NSE at 15:52
+Completed NSE at 15:52, 0.00s elapsed
+Initiating Ping Scan at 15:52
+Scanning 45.33.32.158 [2 ports]
+Completed Ping Scan at 15:52, 0.07s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 15:52
+Completed Parallel DNS resolution of 1 host. at 15:52, 0.05s elapsed
+Initiating Connect Scan at 15:52
+Scanning 45-33-32-158.ip.linodeusercontent.com (45.33.32.158) [1 port]
+Discovered open port 443/tcp on 45.33.32.158
+Completed Connect Scan at 15:52, 0.07s elapsed (1 total ports)
+NSE: Script scanning 45.33.32.158.
+Initiating NSE at 15:52
+Completed NSE at 15:52, 34.47s elapsed
+Initiating NSE at 15:52
+Completed NSE at 15:52, 0.00s elapsed
+Nmap scan report for 45-33-32-158.ip.linodeusercontent.com (45.33.32.158)
+Host is up (0.070s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+| http-robots.txt: 4 disallowed entries 
+| /wp-admin/ /feed/ /wp-json/  
+|_/wp-content/uploads/woo-import-export/
+|_http-title: Did not follow redirect to https://www.its420somewhere.com/
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=node1467.myfcloud.com
+| Subject Alternative Name: DNS:autoconfig.node1467.myfcloud.com, DNS:autodiscover.node1467.myfcloud.com, DNS:ipv6.node1467.myfcloud.com, DNS:mail.node1467.myfcloud.com, DNS:node1467.myfcloud.com, DNS:www.node1467.myfcloud.com
+| Issuer: commonName=R11/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-09-01T17:25:41
+| Not valid after:  2024-11-30T17:25:40
+| MD5:   0b3c:35f3:8a62:3e1e:4c17:a4d5:82e7:e12e
+|_SHA-1: 5f09:b39f:6101:3144:8776:602b:ccc2:8a2b:e17e:4623
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| tls-alpn: 
+|   h2
+|   http/1.1
+|   http/1.0
+|_  http/0.9
+
+NSE: Script Post-scanning.
+Initiating NSE at 15:52
+Completed NSE at 15:52, 0.00s elapsed
+Initiating NSE at 15:52
+Completed NSE at 15:52, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 34.81 seconds

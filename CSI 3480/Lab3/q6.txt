@@ -1,0 +1,125 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-29 15:26 EDT
+NSE: Loaded 126 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 15:26
+Completed NSE at 15:26, 0.00s elapsed
+Initiating NSE at 15:26
+Completed NSE at 15:26, 0.00s elapsed
+Initiating Ping Scan at 15:26
+Scanning 45.33.32.158 [2 ports]
+Completed Ping Scan at 15:26, 0.07s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 15:26
+Completed Parallel DNS resolution of 1 host. at 15:26, 0.04s elapsed
+Initiating Connect Scan at 15:26
+Scanning 45-33-32-158.ip.linodeusercontent.com (45.33.32.158) [1000 ports]
+Discovered open port 3306/tcp on 45.33.32.158
+Discovered open port 143/tcp on 45.33.32.158
+Discovered open port 587/tcp on 45.33.32.158
+Discovered open port 443/tcp on 45.33.32.158
+Discovered open port 993/tcp on 45.33.32.158
+Discovered open port 8080/tcp on 45.33.32.158
+Discovered open port 80/tcp on 45.33.32.158
+Discovered open port 995/tcp on 45.33.32.158
+Discovered open port 110/tcp on 45.33.32.158
+Discovered open port 111/tcp on 45.33.32.158
+Discovered open port 21/tcp on 45.33.32.158
+Discovered open port 53/tcp on 45.33.32.158
+Discovered open port 8443/tcp on 45.33.32.158
+Discovered open port 465/tcp on 45.33.32.158
+Completed Connect Scan at 15:26, 4.98s elapsed (1000 total ports)
+NSE: Script scanning 45.33.32.158.
+Initiating NSE at 15:26
+Completed NSE at 15:32, 305.93s elapsed
+Initiating NSE at 15:32
+Completed NSE at 15:32, 0.00s elapsed
+Nmap scan report for 45-33-32-158.ip.linodeusercontent.com (45.33.32.158)
+Host is up (0.080s latency).
+Not shown: 986 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+| ssl-cert: Subject: commonName=node1467.myfcloud.com
+| Subject Alternative Name: DNS:autoconfig.node1467.myfcloud.com, DNS:autodiscover.node1467.myfcloud.com, DNS:ipv6.node1467.myfcloud.com, DNS:mail.node1467.myfcloud.com, DNS:node1467.myfcloud.com, DNS:www.node1467.myfcloud.com
+| Issuer: commonName=R11/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-09-01T17:25:41
+| Not valid after:  2024-11-30T17:25:40
+| MD5:   0b3c:35f3:8a62:3e1e:4c17:a4d5:82e7:e12e
+|_SHA-1: 5f09:b39f:6101:3144:8776:602b:ccc2:8a2b:e17e:4623
+53/tcp   open  domain
+80/tcp   open  http
+|_http-title: One moment, please...
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Unknown favicon MD5: 0FD9EAAB8928FC9103728F741F1D2DF5
+110/tcp  open  pop3
+| ssl-cert: Subject: commonName=node1467.myfcloud.com
+| Subject Alternative Name: DNS:autoconfig.node1467.myfcloud.com, DNS:autodiscover.node1467.myfcloud.com, DNS:ipv6.node1467.myfcloud.com, DNS:mail.node1467.myfcloud.com, DNS:node1467.myfcloud.com, DNS:www.node1467.myfcloud.com
+| Issuer: commonName=R11/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-09-01T17:25:41
+| Not valid after:  2024-11-30T17:25:40
+| MD5:   0b3c:35f3:8a62:3e1e:4c17:a4d5:82e7:e12e
+|_SHA-1: 5f09:b39f:6101:3144:8776:602b:ccc2:8a2b:e17e:4623
+111/tcp  open  rpcbind
+143/tcp  open  imap
+| ssl-cert: Subject: commonName=node1467.myfcloud.com
+| Subject Alternative Name: DNS:autoconfig.node1467.myfcloud.com, DNS:autodiscover.node1467.myfcloud.com, DNS:ipv6.node1467.myfcloud.com, DNS:mail.node1467.myfcloud.com, DNS:node1467.myfcloud.com, DNS:www.node1467.myfcloud.com
+| Issuer: commonName=R11/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-09-01T17:25:41
+| Not valid after:  2024-11-30T17:25:40
+| MD5:   0b3c:35f3:8a62:3e1e:4c17:a4d5:82e7:e12e
+|_SHA-1: 5f09:b39f:6101:3144:8776:602b:ccc2:8a2b:e17e:4623
+443/tcp  open  https
+|_http-title: One moment, please...
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| tls-alpn: 
+|   h2
+|   http/1.1
+|   http/1.0
+|_  http/0.9
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=alma.myfcloud.com
+| Issuer: commonName=alma.myfcloud.com
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-05-25T09:59:55
+| Not valid after:  2024-05-24T09:59:55
+| MD5:   8aff:78e2:7e76:9ba3:1fa0:ec43:7a2c:f621
+|_SHA-1: ee6e:cde2:e72f:0012:0f5c:b47c:60f9:434d:fa2c:e615
+465/tcp  open  smtps
+|_smtp-commands: SMTP EHLO 45-33-32-158.ip.linodeusercontent.com: failed to receive data: connection timeout
+| ssl-cert: Subject: commonName=node1467.myfcloud.com
+| Subject Alternative Name: DNS:autoconfig.node1467.myfcloud.com, DNS:autodiscover.node1467.myfcloud.com, DNS:ipv6.node1467.myfcloud.com, DNS:mail.node1467.myfcloud.com, DNS:node1467.myfcloud.com, DNS:www.node1467.myfcloud.com
+| Issuer: commonName=R11/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-09-01T17:25:41
+| Not valid after:  2024-11-30T17:25:40
+| MD5:   0b3c:35f3:8a62:3e1e:4c17:a4d5:82e7:e12e
+|_SHA-1: 5f09:b39f:6101:3144:8776:602b:ccc2:8a2b:e17e:4623
+587/tcp  open  submission
+| smtp-commands: node1467.myfcloud.com Hello d192-24-48-45.try.wideopenwest.com [24.192.45.48], SIZE 52428800, 8BITMIME, PIPELINING, PIPECONNECT, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3306/tcp open  mysql
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+NSE: Script Post-scanning.
+Initiating NSE at 15:32
+Completed NSE at 15:32, 0.00s elapsed
+Initiating NSE at 15:32
+Completed NSE at 15:32, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 311.16 seconds
