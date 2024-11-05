@@ -5,7 +5,7 @@ VPN Advantages
 - Scalability
 # IPSEC
 IPSEC is a suite of protocols for VPNs. They provide:
-- The Authentication Header
+- Authentication Header
 - Encapsulating Security Payload
 	- Provides encryption, integrity, and authentication
 - Security Association
