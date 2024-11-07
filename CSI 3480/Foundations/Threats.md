@@ -10,7 +10,7 @@ Threat sources are categorized into three areas:
 ## STRIDE
 A threat classification system developed by Microsoft.
 ### Spoofing identity
-Illegally accessing and then using another user's authentication information
+Illegally accessing and then using another user's authentication information. This violates [[Information Security|confidentiality]]. 
 [[Controls]] that can be used are in the area of authentication. 
 ### Tampering with data
 Involves the modification of data. 

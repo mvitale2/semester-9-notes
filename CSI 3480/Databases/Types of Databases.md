@@ -1,5 +1,6 @@
 - Structured data
 	- Results from formatting based on type of processing to be performed
+	- Used in relational database models (tables, columns, etc.)
 - Semi-structured data
 - Unstructured data
 

@@ -31,6 +31,7 @@ A firewall can be:
 
 ![[Pasted image 20241029144130.png]]
 ## Screened Host Firewall Architecture
+![[Pasted image 20241107143259.png]]
 Firewalls in this architecture can be used with a DMZ or without one. 
 ## Firewall planning and implementation
 Based on NIST's SP 800-41, the steps to plan a firewall are:
