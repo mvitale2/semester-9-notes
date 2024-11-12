@@ -23,7 +23,7 @@ SP 800-60 suggests three general organizational areas where information types ar
 ## Organizational Input
 To ensure categorization is consistent, these inputs can be critical:
 - [[Law|Laws]], directives, and [[policy]]
-- [[Information Security Governance|Strategic goals and objectives]]
+- [[Information Security|Strategic goals and objectives]]
 - Resource availability
 - Supply chain
 ## Classification
