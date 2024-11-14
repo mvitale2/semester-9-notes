@@ -13,6 +13,9 @@
 - User interface
 	- Provides a way to view the output of the IDS
 ## Network-Based IDS
+Focused on protecting network information [[Assets]]. 
+- Wireless IDPS focuses on wireless networks.
+- Network behavior analysis IDPS examines traffic flow on a network to recognize abnormal patterns. 
 ### Advantages
 - Reduces overhead
 - Can view encrypted packets
