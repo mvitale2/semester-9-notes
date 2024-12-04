@@ -1,0 +1,20 @@
+1. C
+2. D
+3. B
+4. B
+5. A
+6. C
+7. A
+8. D
+9. True
+10. True
+11. rubygem
+12. Rails
+13. SQLite
+14. D
+15. A
+16. C
+17. B
+18. Convention over Configuration
+19. DRY
+20. False
